@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/"
-to = "http://www.omdbapi.com"
+from = "/*"
+to = "http://www.omdbapi.com/"
 status = 200
 force = true
