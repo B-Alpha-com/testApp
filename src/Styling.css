@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+.header_Div{
+    background-color: #292929;
+    width: 100%;
+    height:140px ;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.h1{
+    color: #FFFFFF;
+    border:1.5px white solid;
+    width: 193px;
+    margin-top: 40px;
+    margin-left: 77px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 19px;
+    padding-left: 19px;
+}
+@media only screen and (max-width:500px) {
+    
+}
+/* Banner styling */
+.banner{
+    position: absolute;
+    width: 1440px;
+    height: 550px;
+    left: 0px;
+    top: 138px;
+    background-image: url("./Asset/Background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.h2{
+    position: absolute;
+    z-index: 1;
+    width: 490px;
+    height: 282px;
+    left: 77px;
+    top: 109px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-size: 72px;
+    line-height: 94px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+/* Styling the Search */
+.search{
+    position: absolute;
+    top:688px ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+.searchText{
+    width: 77px;
+    height: 31px;
+    left: 77px;
+    top: 0px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    margin-left: 77px;
+}
+.input{
+    position: static;
+    width: 1306px;
+    height: 54px;
+    left: 0px;
+    top: 35px;
+    margin-left: 77px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.movie {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.movies {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    overflow-x: scroll;
+}
+
+.movies-container{
+    width: 100%;
+}
